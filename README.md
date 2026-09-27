@@ -1,5 +1,7 @@
 # Linux Server & SSH Setup
 
+Project URL : https://roadmap.sh/projects/ssh-remote-server-setup
+
 ## 1. Server setup
 
 I created an Ubuntu 24.04 LTS server using AWS EC2.
@@ -7,7 +9,7 @@ I created an Ubuntu 24.04 LTS server using AWS EC2.
 I connected to the server for the first time using the SSH key provided by AWS:
 
 ```bash
-ssh -i <path-to-key.pem> ubuntu@<server-ip>
+ssh -i <MyPath/key.pem> ubuntu@<server-ip>
 ```
 
 ## 2. SSH keys
